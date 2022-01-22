@@ -1,0 +1,49 @@
+/*
+define a variables
+*/
+@import 'partials/partials';
+.container-fluid{
+    font-family: Arial, Helvetica, sans-serif;
+}
+// logo
+.img-fluid{
+    margin: 60px 0 0 60px;
+}
+// five link
+// Nesting using
+.nav-item{
+    display: inline;
+}
+ul{
+    margin-top: 21px;
+    li{
+        margin-left: 55px;
+    }
+}
+//Hover state for both navbar and down three letter
+.nav-link:hover{
+    @include Hover;
+}
+.btn{
+    margin: 0 50px 0 23px;
+    background-color: $button-color;
+}
+.nav-link{
+    font-size: 20px;
+    color: $black-color;
+} 
+//Three Letters
+.link:hover{
+    @include Hover;
+}
+.link-group{ 
+    padding-top: 5%;
+    padding-left: 8%;
+    font-family: $font-body;
+    font-size: 22px;
+    .link{
+        color: $black-color;
+        padding: 1%;
+        text-decoration: none;
+    }
+}

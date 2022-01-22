@@ -1,0 +1,46 @@
+/*
+define a variables
+*/
+.container-fluid {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.img-fluid {
+  margin: 60px 0 0 60px; }
+
+.nav-item {
+  display: inline; }
+
+ul {
+  margin-top: 21px; }
+  ul li {
+    margin-left: 55px; }
+
+.nav-link:hover {
+  border-bottom: 2px solid #403df1;
+  color: #403df1;
+  padding-bottom: 2px; }
+
+.btn {
+  margin: 0 50px 0 23px;
+  background-color: #ff9900; }
+
+.nav-link {
+  font-size: 20px;
+  color: #000000; }
+
+.link:hover {
+  border-bottom: 2px solid #403df1;
+  color: #403df1;
+  padding-bottom: 2px; }
+
+.link-group {
+  padding-top: 5%;
+  padding-left: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px; }
+  .link-group .link {
+    color: #000000;
+    padding: 1%;
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */
